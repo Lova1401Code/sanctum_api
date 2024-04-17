@@ -14,5 +14,5 @@ class Projet extends Model
         'name',
         'duree',
         'description'
-    ]
+    ];
 }

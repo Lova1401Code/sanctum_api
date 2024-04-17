@@ -4,3 +4,16 @@ table: Projet => colonntes ( id, etudiant_id, nom, duree, description),
 1) php artisan make:migration createEtudiantsTable
 2)php artisan make:migration createProjetsTable
 .... php artisan migrate
+
+3) les methodes/controlleurs
+- Authentification des étudiant 
+    register
+    login 
+    logout
+ information des étudiants 
+    profil
+-projets
+    create
+    delete
+    liste // lister les projets par étudiant
+    details // obtenir les détails du projet

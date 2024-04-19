@@ -71,7 +71,7 @@ class EtudiantController extends Controller
     //déconnexion
     //URL : http://127.0.0.1:8000/api/logout
     public function logout(Request $request) {
-        Auth::user()->tokens()->delete();
+        // Auth::user()->tokens()->delete();
         return response()->json([
             "status" => 1,
             "message" => "Deconnexion réussie"
